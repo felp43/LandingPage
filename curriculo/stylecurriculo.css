@@ -49,7 +49,7 @@ p {
 }
 img {
     display: block;
-    margin: -3em auto 2em;
+    margin: 3em auto 2em;
     border-radius: 10em;
     box-shadow: 4px 4px 4px white;
     max-width: 100%;
