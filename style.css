@@ -2,26 +2,57 @@ body {
     background-image: linear-gradient(#014f86, #90e0ef, #0077b6);
     text-align: center;
     text-shadow: 2px 1px 3px black;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 }
+
 h1 {
     color: azure;
     font-size: 4em;
 }
+
 .rouge-script-regular {
     font-family: "Rouge Script", cursive;
     font-weight: 400;
     font-style: normal;
 }
-      
+
 p {
-    color: white;   
-    margin-left: 40em;
-    margin-right: 40em;
-    margin-top: 3em;
+    color: white;
+    margin: 3em auto;
+    max-width: 80%;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.6;
 }
+
 img {
     box-shadow: 6px 10px 5px white;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 2em auto;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    p {
+        max-width: 90%;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
 }
 
